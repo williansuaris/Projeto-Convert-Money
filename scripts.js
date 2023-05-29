@@ -62,24 +62,3 @@ changeCurrency = () => {
 
 button.addEventListener("click", convertValues)
 select.addEventListener("change", changeCurrency)
-
-/*
-        if (select.value === "Bitcoin") {
-            currencyValueText.innerHTML = new Intl.NumberFormat("btc",
-                { style: 'currency', currency: 'BTC' }
-            ).format(inputReais / bitcoin)
-        }
-
-        currencyValueText.innerHTML = new Intl.NumberFormat("en-US", {
-            style: "currency",
-            currency: "USD",
-        }).format(inputReais / dolar)
-
-        currencyValueText.innerHTML = new Intl.NumberFormat("de-DE", {
-            style: "currency",
-            currency: "EUR",
-        }).format(inputReais / euro)
-
-    }
-    */
-
